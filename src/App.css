@@ -1,0 +1,31 @@
+body {
+  background-color: hsl(0,0%,85%);
+}
+
+.header {
+  min-height: 50px;
+  width: 100%;
+  background-color: hsl(0,0%,20%);
+  box-shadow: 0 2px 10px rgba(0,0,0,.4);
+  color: hsl(0,0%,90%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logotype {
+  padding: 0 .5em;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.user-block {
+  padding: 0 .5em;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.body {
+  padding: .5em;
+}
